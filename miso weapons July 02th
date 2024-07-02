@@ -1,0 +1,3194 @@
+M1911:
+    Item_Information:
+        Item_Name: "&eM1911"
+        Item_Type: 271
+        Item_Lore: "&7Type: Auto|&7Damage: 2||&e(Tier 1)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 18
+        Projectile_Damage: 2
+        Bullet_Spread: 0.8
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 24
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~5
+        Ammo_Name_Check: "&dPistolAmmo"
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+soloshot:
+    Item_Information:
+        Item_Name: "&eSolo Shot"
+        Item_Type: 269
+        Item_Lore: "&7Type: Solo Shot|&7Damage: 3||&e(Tier 1)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 18
+        Recoil_Amount: 1
+        Projectile_Amount: 4
+        Projectile_Type: egg
+        Projectile_Speed: 14
+        Projectile_Damage: 3
+        Bullet_Spread: 1.8
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.4
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 20
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~4
+        Ammo_Name_Check: "&9ShotgunAmmo"
+    Firearm_Action:
+        Type: break
+        Open_Duration: 9
+        Close_Duration: 9
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+ar15:
+    Item_Information:
+        Item_Name: "&eAR-15"
+        Item_Type: 270
+        Item_Lore: "&7Type: Triple-shots|&7Damage: 2||&e(Tier 1)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 7
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 2
+        Bullet_Spread: 1.7
+        Sounds_Shoot: ITEM_BREAK-1-2-2,NOTE_SNARE_DRUM-1-0-2
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 35
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Ammo_Name_Check: "&2AssaultAmmo"
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+enfield:
+    Item_Information:
+        Item_Name: "&eEnfield"
+        Item_Type: 290
+        Item_Lore: "&7Type: Bolt-Action.|&7Damage: 10||&e(Tier 1)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 4
+        Bullet_Spread: 0.4
+        Sounds_Shoot: EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 22
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Ammo_Name_Check: "&cSniperAmmo"
+    Headshot:
+        Enable: true
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Glock:
+    Item_Information:
+        Item_Name: "&6Glock"
+        Item_Type: 275
+        Item_Lore: "&7Type: Semi-Auto|&7Damage: 3||&6(Tier 2)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 24
+        Projectile_Damage: 3
+        Bullet_Spread: 1
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 15
+        Reload_Duration: 16
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~5
+        Ammo_Name_Check: "&dPistolAmmo"
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+granpawsgun:
+    Item_Information:
+        Item_Name: "&6Granpaw's Gun"
+        Item_Type: 273
+        Item_Lore: "&7Type: Pump-Action|&7Damage: 3||&6(Tier 2)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 2
+        Projectile_Amount: 4
+        Projectile_Type: egg
+        Projectile_Speed: 12
+        Projectile_Damage: 3
+        Bullet_Spread: 1.4
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 18
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~4
+        Ammo_Name_Check: "&9ShotgunAmmo"
+    Firearm_Action:
+        Type: break
+        Open_Duration: 12
+        Close_Duration: 14
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Type95:
+    Item_Information:
+        Item_Name: "&6Type 95"
+        Item_Type: 274
+        Item_Lore: "&7Type: Triple-shots|&7Damage: 3||&6(Tier 2)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 4
+        Bullet_Spread: 2
+        Sounds_Shoot: ITEM_BREAK-1-2-2,NOTE_SNARE_DRUM-1-0-2
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Ammo_Name_Check: "&2AssaultAmmo"
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+m24:
+    Item_Information:
+        Item_Name: "&6M-24"
+        Item_Type: 291
+        Item_Lore: "&7Type: Bolt-Action.|&7Damage: 12||&6(Tier 2)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 16
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 6
+        Bullet_Spread: 0.4
+        Sounds_Shoot: EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 22
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Ammo_Name_Check: "&cSniperAmmo"
+    Headshot:
+        Enable: true
+        Bonus_Damage: 2
+    Fireworks:
+        Enable: true
+        Firework_Headshot: star-false-false-250-128-64
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 10
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Zoom_Amount: 6
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+44-magnum:
+    Item_Information:
+        Item_Name: "&a44-Magnum"
+        Item_Type: 286
+        Item_Lore: "&7Type: Revolver|&7Damage: 5||&a(Tier 3)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 5
+        Bullet_Spread: 1
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 18
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~5
+        Ammo_Name_Check: "&dPistolAmmo"
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Riotgun:
+    Item_Information:
+        Item_Name: "&aRiot Gun"
+        Item_Type: 284
+        Item_Lore: "&7Type: Pump-Action|&7Damage: 2||&a(Tier 3)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 2
+        Projectile_Amount: 16
+        Projectile_Type: egg
+        Projectile_Speed: 14
+        Projectile_Damage: 2
+        Bullet_Spread: 4
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.5
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 18
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~4
+        Ammo_Name_Check: "&9ShotgunAmmo"
+    Firearm_Action:
+        Type: break
+        Open_Duration: 12
+        Close_Duration: 14
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-51
+        
+dragnov:
+    Item_Information:
+        Item_Name: "&aDragnov"
+        Item_Type: 294
+        Item_Lore: "&7Type: Bolt-Action.|&7Damage: 14||&a(Tier 3)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 16
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 8
+        Bullet_Spread: 0.5
+        Sounds_Shoot: EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 22
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Ammo_Name_Check: "&cSniperAmmo"
+    Headshot:
+        Enable: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: star-false-false-252-128-64
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+aug:
+    Item_Information:
+        Item_Name: "&aAUG"
+        Item_Type: 285
+        Item_Lore: "&7Type: Triple-shots|&7Damage: 4||&a(Tier 3)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 8
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 4
+        Bullet_Spread: 1
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.8
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 36
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Ammo_Name_Check: "&2AssaultAmmo"
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 12
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.5
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Python:
+    Item_Information:
+        Item_Name: "&dPython"
+        Item_Type: 258
+        Item_Lore: "&7Type: Revolver|&7Damage: 7||&d(Tier 4)"
+        Melee_Attachment: Tactical_Knife
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 6
+        Bullet_Spread: 1
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Duration: 35
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~5
+        Ammo_Name_Check: "&dPistolAmmo"
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+     
+AWM:
+    Item_Information:
+        Item_Name: "&dAWM"
+        Item_Type: 292
+        Item_Lore: "&7Type: Bolt-Action.|&7Damage: 16||&d(Tier 4)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 14
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 10
+        Bullet_Spread: 0.4
+        Sounds_Shoot: EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 22
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Ammo_Name_Check: "&cSniperAmmo"
+    Headshot:
+        Enable: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: star-false-false-255-128-64
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 10
+        Close_Duration: 7
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+spas12:
+    Item_Information:
+        Item_Name: "&dSpas 12"
+        Item_Type: 256
+        Item_Lore: "&7Type: Pump-Action|&7Damage: 5||&d(Tier 4)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 16
+        Reset_Fall_Distance: true
+        Recoil_Amount: 2
+        Projectile_Amount: 4
+        Projectile_Type: egg
+        Projectile_Speed: 18
+        Projectile_Damage: 3
+        Projectile_Flames: true
+        Bullet_Spread: 2.5
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.8
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 25
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~4
+        Ammo_Name_Check: "&9ShotgunAmmo"
+    Firearm_Action:
+        Type: break
+        Open_Duration: 12
+        Close_Duration: 14
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+        
+AK-47:
+    Item_Information:
+        Item_Name: "&dAK-47"
+        Item_Type: 257
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 5||&d(Tier 4)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 5
+        Bullet_Spread: 1.2
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 6
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Ammo_Name_Check: "&2AssaultAmmo"
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.5
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+Deagle:
+    Item_Information:
+        Item_Name: "&bDesert Eagle"
+        Item_Type: 279
+        Item_Lore: "&7Type: Dual pistols.|&7Damage: 9||&b(Tier 5)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 8
+        Bullet_Spread: 0.8
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.6
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: DOOR_OPEN-1-2-4,DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~5
+        Ammo_Name_Check: "&dPistolAmmo"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 1
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Cheytac:
+    Item_Information:
+        Item_Name: "&bCheytac"
+        Item_Type: 293
+        Item_Lore: "&7Type: Bolt-Action.|&7Damage: 24||&b(Tier 5)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 18
+        Bullet_Spread: 0
+        Sounds_Shoot: EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 25
+        Reload_Bullets_Individually: false
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Ammo_Name_Check: "&cSniperAmmo"
+    Headshot:
+        Enable: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: star-false-false-255-128-64
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 10
+        Close_Duration: 7
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Knockback: 2
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+olympia:
+    Item_Information:
+        Item_Name: "&bOlympia"
+        Item_Type: 277
+        Item_Lore: "&7Type: Dual Barrel|&7Damage: 8||&b(Tier 5)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 6
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 14
+        Projectile_Damage: 3
+        Projectile_Flames: true
+        Bullet_Spread: 2.5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 25
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~4
+        Ammo_Name_Check: "&9ShotgunAmmo"
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+
+M16A3:
+    Item_Information:
+        Item_Name: "&bM16A3"
+        Item_Type: 278
+        Item_Lore: "&7Type: Semi-Auto|&7Damage: 7||&b(Tier 5)"
+        Attachments:
+            Type: main
+            Info: "M320"
+            Toggle_Delay: 5
+            Sounds_Toggle: NOTE_STICKS-1-2-0
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 22
+        Projectile_Damage: 7
+        Bullet_Spread: 0.4
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.3
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 45
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Ammo_Name_Check: "&2AssaultAmmo"
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 8
+        Sound_Close: CLICK-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+
+#Lunar 2020 Donor
+
+lunar2020minigun:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eM&ci&en&ci&eg&cu&en&f"
+        Item_Type: 420
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&d(Tier 5)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 1
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_WOOD-0.6-1-0,EXPLODE-0.4-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Reload:
+        Enable: true
+        Reload_Amount: 400
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Knockback: 1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+        
+lunar2020potatolauncher:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eP&co&et&ca&et&co &eL&ca&eu&cn&ec&ch&ee&cr&f"
+        Item_Type: 418
+        Item_Lore: "&7Type: Grenade||&3(Tier 6)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 392
+        Projectile_Speed: 14
+        Projectile_Damage: 0
+        Sounds_Shoot: CHICKEN_EGG_POP-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_GENERIC_EAT-5-0-0
+        Reload_Bullets_Individually: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-155
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 22
+        Damage_Multiplier: 58
+        Enable_Owner_Immunity: true
+        
+lunar2020radiationrifle:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eR&ca&ed&ci&ea&ct&ei&co&en &cR&ei&cf&el&ce&f"
+        Item_Type: 409
+        Item_Lore: "&7Type: Energy|&7Damage: 8||&3(Tier 6)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 9
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 48-1-1-1
+        Projectile_Damage: 7
+        Bullet_Spread: 0.2
+        Sounds_Shoot: FIZZ-2-0-0,ENDERMAN_TELEPORT-3-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_OPEN-3-3-0,DOOR_OPEN-3-3-5,DOOR_CLOSE-2-3-40
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-138
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_MOOSHROOM_SHEAR-0.8-1.2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2020railgun:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eR&ca&ei&cl&eG&cu&en&f"
+        Item_Type: 370
+        Item_Lore: "&7Electromagnetic Projectile Launcher||&3Tier: 6|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 0
+        Bullet_Spread: 0.2
+        Sounds_Shoot: ENDERMAN_TELEPORT-3-0-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+        No_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENTITY_ENDERMEN_SCREAM-0.7-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 5
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Firearm_Action:
+        Type: break
+        Open_Duration: 30
+        Close_Duration: 20
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: false
+        Death_No_Drop: true
+        Super_Effective: SKELETON-2,ZOMBIE-2
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        On_Impact_With_Anything: true
+        Explosion_Radius: 3
+        Knockback: 3
+        Damage_Multiplier: 60
+        Enable_Owner_Immunity: true
+        
+lunar2020Deto:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eD&ce&et&co&en&ca&et&cor&r"
+        Item_Type: 289
+        Item_Lore: "&7Type: Ambush||&3(Tier 6)|&eLunar New Year 2020"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,14,276,407
+        Projectile_Speed: 14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 20
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 15
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 48
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2020pepperspray:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eP&ce&ep&cp&ee&cr &eS&cp&er&ca&ey&f"
+        Item_Type: 378
+        Item_Lore: "|&o&5Spicy and Dangerous|&eLunar New Year 2020"
+        Sounds_Acquired: NOTE_PLING-2-2-0,NOTE_PLING-2-2-5
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 4
+        Projectile_Type: arrow
+        Projectile_Speed: 12
+        Projectile_Damage: 2
+        Bullet_Spread: 2.2
+        Sounds_Shoot: CAT_HISS-2-2-0,FIZZ-1-2-0,AMBIENCE_RAIN-1-2-0,BLAZE_HIT-1-0-0
+        Remove_Arrows_On_Impact: true
+    Reload:
+        Enable: true
+        Reload_Amount: 15
+        Reload_Bullets_Individually: false
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: FIRE_IGNITE-2-0-0
+        Sounds_Reloading: FIZZ-1-1-0,PISTON_RETRACT-2-2-120
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-40-2,POISON-160-3
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1,BLOCK_BREAK-1
+
+lunar2020flamethrower:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eF&cl&ea&cm&ee&ct&eh&cr&eo&cw&ee&cr&f"
+        Item_Type: 259
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&e(Tier 5)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 10
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Flames: true
+        Projectile_Damage: 1
+        Bullet_Spread: 3
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 80
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Super_Effective: PLAYER-0.5
+
+lunar2020chainsaw:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eC&ch&ea&ci&en&cs&ea&cw&f"
+        Item_Type: 359
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 6||&d(Tier 5)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 2-1-none-0
+        Projectile_Speed: 2	
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_WOLF_GROWL-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 300
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2020jetpack:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eJ&ce&et&cp&ea&cc&ek&f"
+        Item_Type: 288
+        Item_Lore: "&7High Tech Propulsion System||&3Tier: 6|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -9
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 3-2-none-1
+        Projectile_Speed: 3
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 10
+        Projectile_Damage: 0
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_BLAZE_SHOOT-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 60
+        Sounds_Reloading: FIZZ-0.5-1-0,BLOCK_LEVER_CLICK-0.4-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+        
+lunar2020estaff:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eE&cn&ed&ce&er &cS&et&ca&ef&cf&f"
+        Item_Type: 398
+        Item_Lore: "&7Type: Ender Teleporter||&d(Tier 4)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 40
+        Recoil_Amount: -26
+        Projectile_Amount: 0
+        Projectile_Type: arrow
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-90
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+        
+lunar2020Hstaff:
+    Item_Information:
+        Item_Name: "&c<&e3 &cL&eu&cn&ee&cr &eH&ce&ea&cl&ei&cn&eg &cS&et&ca&ef&cf &e<&c3&f"
+        Item_Type: 280
+        Item_Lore: "&7Type: Healing||&d(Tier 5)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 30
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: splash
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_PLAYER_LEVELUP-1-1-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Reload_Amount: 3
+        Reload_Duration: 45
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: potion_splash-444
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-0-6,SPEED-100-2,SATURATION-0-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2020Jumper:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eJ&cu&em&cp&ee&cr&f"
+        Item_Type: 131
+        Item_Lore: "&7Type: YOU GO HIGH||&d(Tier 4)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 17
+        Projectile_Amount: 0.5
+        Projectile_Type: egg
+        Projectile_Speed: 1		
+        Reset_Fall_Distance: true
+        Projectile_Damage: 0
+        Bullet_Spread: 0.6
+        Sounds_Shoot: UI_BUTTON_CLICK-1-1-0,PISTON_EXTEND-1-1-0,ZOMBIE_WOOD-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 40
+        Sounds_Reloading: DOOR_CLOSE-1-2-0,SKELETON_WALK-1-0-10,PISTON_RETRACT-1-1-15
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        No_Fall_Damage: true
+
+lunar2020bazu:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eB&ca&ez&co&eo&ck&ea&f"
+        Item_Type: 417
+        Item_Lore: "|&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage.|&eLunar New Year 2020"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 6
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Projectile_Speed: 10
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 10
+        Speed: 6
+    Explosions:
+        Enable: true
+        Knockback: 14
+        Explosion_No_Grief: true
+        Damage_Multiplier: 25
+        Enable_Owner_Immunity: true
+        Explosion_Radius: 4
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+lunar2020RAYgun:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eR&ca&ey &cg&eu&cn&f"
+        Item_Type: 369
+        Item_Lore: "&7Type: Ray Gun|&7Damage: 10||&d(Tier 5)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 60-1-none-1
+        Projectile_Speed: 60
+        Projectile_Damage: 13
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_BAT_DEATH-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Critical: BLOCK_BREAK-4,BLOCK_BREAK-41
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Player_Shoot: BLOCK_BREAK-152
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+lunar2020HMG:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eH&ce&ea&cv&ey &cM&ea&cc&eh&ci&en&ce &eG&cu&en&f"
+        Item_Type: 318
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 2||&3(Tier 6)|&eLunar New Year 2020"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Speed: 12
+        Projectile_Amount: 2
+        Projectile_Type: egg
+        Remove_Bullet_Drop: true
+        Projectile_Damage: 2
+        Bullet_Spread: 0.3
+        Sounds_Shoot: ZOMBIE_WOOD-0.3-0-0,ZOMBIE_WOOD-0.6-1-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 500
+        Reload_Duration: 55
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.1
+        Sounds_Toggle_Zoom: BLOCK_NOTE_BLOCK_HAT-1-1-0
+        
+#Lunar 2021 Donor
+
+lunar2021minigun:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eM&ci&en&ci&eg&cu&en&f"
+        Item_Type: 420
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&d(Tier 5)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 1
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_WOOD-0.6-1-0,EXPLODE-0.4-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Reload:
+        Enable: true
+        Reload_Amount: 400
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Knockback: 1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+        
+lunar2021potatolauncher:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eP&co&et&ca&et&co &eL&ca&eu&cn&ec&ch&ee&cr&f"
+        Item_Type: 418
+        Item_Lore: "&7Type: Grenade||&3(Tier 6)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 392
+        Projectile_Speed: 14
+        Projectile_Damage: 0
+        Sounds_Shoot: CHICKEN_EGG_POP-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_GENERIC_EAT-5-0-0
+        Reload_Bullets_Individually: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-155
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 22
+        Damage_Multiplier: 58
+        Enable_Owner_Immunity: true
+        
+lunar2021radiationrifle:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eR&ca&ed&ci&ea&ct&ei&co&en &cR&ei&cf&el&ce&f"
+        Item_Type: 409
+        Item_Lore: "&7Type: Energy|&7Damage: 8||&3(Tier 6)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 9
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 48-1-1-1
+        Projectile_Damage: 7
+        Bullet_Spread: 0.2
+        Sounds_Shoot: FIZZ-2-0-0,ENDERMAN_TELEPORT-3-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_OPEN-3-3-0,DOOR_OPEN-3-3-5,DOOR_CLOSE-2-3-40
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-138
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_MOOSHROOM_SHEAR-0.8-1.2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2021railgun:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eR&ca&ei&cl&eG&cu&en&f"
+        Item_Type: 370
+        Item_Lore: "&7Electromagnetic Projectile Launcher||&3Tier: 6|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 0
+        Bullet_Spread: 0.2
+        Sounds_Shoot: ENDERMAN_TELEPORT-3-0-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+        No_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENTITY_ENDERMEN_SCREAM-0.7-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 5
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Firearm_Action:
+        Type: break
+        Open_Duration: 30
+        Close_Duration: 20
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: false
+        Death_No_Drop: true
+        Super_Effective: SKELETON-2,ZOMBIE-2
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        On_Impact_With_Anything: true
+        Explosion_Radius: 3
+        Knockback: 3
+        Damage_Multiplier: 60
+        Enable_Owner_Immunity: true
+        
+lunar2021Deto:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eD&ce&et&co&en&ca&et&cor&r"
+        Item_Type: 289
+        Item_Lore: "&7Type: Ambush||&3(Tier 6)|&eLunar New Year 2021"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,14,276,407
+        Projectile_Speed: 14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 20
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 15
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 48
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2021pepperspray:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eP&ce&ep&cp&ee&cr &eS&cp&er&ca&ey&f"
+        Item_Type: 378
+        Item_Lore: "|&o&5Spicy and Dangerous|&eLunar New Year 2021"
+        Sounds_Acquired: NOTE_PLING-2-2-0,NOTE_PLING-2-2-5
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 4
+        Projectile_Type: arrow
+        Projectile_Speed: 12
+        Projectile_Damage: 2
+        Bullet_Spread: 2.2
+        Sounds_Shoot: CAT_HISS-2-2-0,FIZZ-1-2-0,AMBIENCE_RAIN-1-2-0,BLAZE_HIT-1-0-0
+        Remove_Arrows_On_Impact: true
+    Reload:
+        Enable: true
+        Reload_Amount: 15
+        Reload_Bullets_Individually: false
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: FIRE_IGNITE-2-0-0
+        Sounds_Reloading: FIZZ-1-1-0,PISTON_RETRACT-2-2-120
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-40-2,POISON-160-3
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1,BLOCK_BREAK-1
+
+lunar2021flamethrower:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eF&cl&ea&cm&ee&ct&eh&cr&eo&cw&ee&cr&f"
+        Item_Type: 259
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&e(Tier 5)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 10
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Flames: true
+        Projectile_Damage: 1
+        Bullet_Spread: 3
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 80
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Super_Effective: PLAYER-0.5
+
+lunar2021chainsaw:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eC&ch&ea&ci&en&cs&ea&cw&f"
+        Item_Type: 359
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 6||&d(Tier 5)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 2-1-none-0
+        Projectile_Speed: 2	
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_WOLF_GROWL-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 300
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2021jetpack:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eJ&ce&et&cp&ea&cc&ek&f"
+        Item_Type: 288
+        Item_Lore: "&7High Tech Propulsion System||&3Tier: 6|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -9
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 3-2-none-1
+        Projectile_Speed: 3
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 10
+        Projectile_Damage: 0
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_BLAZE_SHOOT-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 60
+        Sounds_Reloading: FIZZ-0.5-1-0,BLOCK_LEVER_CLICK-0.4-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+        
+lunar2021estaff:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eE&cn&ed&ce&er &cS&et&ca&ef&cf&f"
+        Item_Type: 398
+        Item_Lore: "&7Type: Ender Teleporter||&d(Tier 4)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 40
+        Recoil_Amount: -26
+        Projectile_Amount: 0
+        Projectile_Type: arrow
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-90
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+        
+lunar2021Hstaff:
+    Item_Information:
+        Item_Name: "&c<&e3 &cL&eu&cn&ee&cr &eH&ce&ea&cl&ei&cn&eg &cS&et&ca&ef&cf &e<&c3&f"
+        Item_Type: 280
+        Item_Lore: "&7Type: Healing||&d(Tier 5)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 30
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: splash
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_PLAYER_LEVELUP-1-1-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Reload_Amount: 3
+        Reload_Duration: 45
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: potion_splash-444
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-0-6,SPEED-100-2,SATURATION-0-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+lunar2021Jumper:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eJ&cu&em&cp&ee&cr&f"
+        Item_Type: 131
+        Item_Lore: "&7Type: YOU GO HIGH||&d(Tier 4)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 17
+        Projectile_Amount: 0.5
+        Projectile_Type: egg
+        Projectile_Speed: 1		
+        Reset_Fall_Distance: true
+        Projectile_Damage: 0
+        Bullet_Spread: 0.6
+        Sounds_Shoot: UI_BUTTON_CLICK-1-1-0,PISTON_EXTEND-1-1-0,ZOMBIE_WOOD-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 40
+        Sounds_Reloading: DOOR_CLOSE-1-2-0,SKELETON_WALK-1-0-10,PISTON_RETRACT-1-1-15
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        No_Fall_Damage: true
+
+lunar2021bazu:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eB&ca&ez&co&eo&ck&ea&f"
+        Item_Type: 417
+        Item_Lore: "|&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage.|&eLunar New Year 2021"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 6
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Projectile_Speed: 10
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 10
+        Speed: 6
+    Explosions:
+        Enable: true
+        Knockback: 14
+        Explosion_No_Grief: true
+        Damage_Multiplier: 25
+        Enable_Owner_Immunity: true
+        Explosion_Radius: 4
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+lunar2021RAYgun:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eR&ca&ey &cg&eu&cn&f"
+        Item_Type: 369
+        Item_Lore: "&7Type: Ray Gun|&7Damage: 10||&d(Tier 5)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 60-1-none-1
+        Projectile_Speed: 60
+        Projectile_Damage: 13
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_BAT_DEATH-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Critical: BLOCK_BREAK-4,BLOCK_BREAK-41
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Player_Shoot: BLOCK_BREAK-152
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+lunar2021HMG:
+    Item_Information:
+        Item_Name: "&cL&eu&cn&ee&cr &eH&ce&ea&cv&ey &cM&ea&cc&eh&ci&en&ce &eG&cu&en&f"
+        Item_Type: 318
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 2||&3(Tier 6)|&eLunar New Year 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Speed: 12
+        Projectile_Amount: 2
+        Projectile_Type: egg
+        Remove_Bullet_Drop: true
+        Projectile_Damage: 2
+        Bullet_Spread: 0.3
+        Sounds_Shoot: ZOMBIE_WOOD-0.3-0-0,ZOMBIE_WOOD-0.6-1-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 500
+        Reload_Duration: 55
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.1
+        Sounds_Toggle_Zoom: BLOCK_NOTE_BLOCK_HAT-1-1-0
+        
+#Lunar 2022 Donor
+
+
+#Summer 2021 Donor
+
+summer2021minigun:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eM&6i&en&6i&eg&6u&en&f"
+        Item_Type: 420
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&d(Tier 5)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 1
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_WOOD-0.6-1-0,EXPLODE-0.4-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Reload:
+        Enable: true
+        Reload_Amount: 400
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Knockback: 1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+        
+summer2021potatolauncher:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eP&6o&et&6a&et&6o &eL&6a&eu&6n&ec&6h&ee&6r&f"
+        Item_Type: 418
+        Item_Lore: "&7Type: Grenade||&3(Tier 6)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 392
+        Projectile_Speed: 14
+        Projectile_Damage: 0
+        Sounds_Shoot: CHICKEN_EGG_POP-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_GENERIC_EAT-5-0-0
+        Reload_Bullets_Individually: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-155
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 22
+        Damage_Multiplier: 58
+        Enable_Owner_Immunity: true
+        
+summer2021radiationrifle:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eR&6a&ed&6i&ea&6t&ei&6o&en &6R&ei&6f&el&6e&f"
+        Item_Type: 409
+        Item_Lore: "&7Type: Energy|&7Damage: 8||&3(Tier 6)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 9
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 48-1-1-1
+        Projectile_Damage: 7
+        Bullet_Spread: 0.2
+        Sounds_Shoot: FIZZ-2-0-0,ENDERMAN_TELEPORT-3-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_OPEN-3-3-0,DOOR_OPEN-3-3-5,DOOR_CLOSE-2-3-40
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-138
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_MOOSHROOM_SHEAR-0.8-1.2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+summer2021railgun:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eR&6a&ei&6l&eG&6u&en&f"
+        Item_Type: 370
+        Item_Lore: "&7Electromagnetic Projectile Launcher||&3Tier: 6|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 0
+        Bullet_Spread: 0.2
+        Sounds_Shoot: ENDERMAN_TELEPORT-3-0-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+        No_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENTITY_ENDERMEN_SCREAM-0.7-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 5
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Firearm_Action:
+        Type: break
+        Open_Duration: 30
+        Close_Duration: 20
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: false
+        Death_No_Drop: true
+        Super_Effective: SKELETON-2,ZOMBIE-2
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        On_Impact_With_Anything: true
+        Explosion_Radius: 3
+        Knockback: 3
+        Damage_Multiplier: 60
+        Enable_Owner_Immunity: true
+        
+summer2021Deto:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eD&6e&et&6o&en&6a&et&6o&er&f"
+        Item_Type: 289
+        Item_Lore: "&7Type: Ambush||&3(Tier 6)|&eSummer 2021"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,14,276,407
+        Projectile_Speed: 14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 20
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 15
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 48
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+summer2021pepperspray:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eP&6e&ep&6p&ee&6r &eS&6p&er&6a&ey&f"
+        Item_Type: 378
+        Item_Lore: "|&o&5Spicy and Dangerous|&eSummer 2021"
+        Sounds_Acquired: NOTE_PLING-2-2-0,NOTE_PLING-2-2-5
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 4
+        Projectile_Type: arrow
+        Projectile_Speed: 12
+        Projectile_Damage: 2
+        Bullet_Spread: 2.2
+        Sounds_Shoot: CAT_HISS-2-2-0,FIZZ-1-2-0,AMBIENCE_RAIN-1-2-0,BLAZE_HIT-1-0-0
+        Remove_Arrows_On_Impact: true
+    Reload:
+        Enable: true
+        Reload_Amount: 15
+        Reload_Bullets_Individually: false
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: FIRE_IGNITE-2-0-0
+        Sounds_Reloading: FIZZ-1-1-0,PISTON_RETRACT-2-2-120
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-40-2,POISON-160-3
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1,BLOCK_BREAK-1
+
+summer2021flamethrower:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eF&6l&ea&6m&eet&6h&er&6o&ew&6e&er&f"
+        Item_Type: 259
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&e(Tier 5)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 10
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Flames: true
+        Projectile_Damage: 1
+        Bullet_Spread: 3
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 80
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Super_Effective: PLAYER-0.5
+
+summer2021chainsaw:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eC&6h&ea&6i&en&6s&ea&6w&f"
+        Item_Type: 359
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 6||&d(Tier 5)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 2-1-none-0
+        Projectile_Speed: 2	
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_WOLF_GROWL-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 300
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+summer2021jetpack:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eJ&6e&et&6p&ea&6c&ek&f"
+        Item_Type: 288
+        Item_Lore: "&7High Tech Propulsion System||&3Tier: 6|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -9
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 3-2-none-1
+        Projectile_Speed: 3
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 10
+        Projectile_Damage: 0
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_BLAZE_SHOOT-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 60
+        Sounds_Reloading: FIZZ-0.5-1-0,BLOCK_LEVER_CLICK-0.4-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+        
+summer2021estaff:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eE&6n&ed&6e&er &6S&et&6a&ef&6f&f"
+        Item_Type: 398
+        Item_Lore: "&7Type: Ender Teleporter||&d(Tier 4)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 40
+        Recoil_Amount: -26
+        Projectile_Amount: 0
+        Projectile_Type: arrow
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-90
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+        
+summer2021Hstaff:
+    Item_Information:
+        Item_Name: "&e<&63 &eS&6u&em&6m&ee&6r &eH&6e&ea&6l&ei&6n&eg &6S&et&6a&ef&6f &e<&63&f"
+        Item_Type: 280
+        Item_Lore: "&7Type: Healing||&d(Tier 5)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 30
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: splash
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_PLAYER_LEVELUP-1-1-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Reload_Amount: 3
+        Reload_Duration: 45
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: potion_splash-444
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-0-6,SPEED-100-2,SATURATION-0-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+summer2021Jumper:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eJ&6u&em&6p&ee&6r&f"
+        Item_Type: 131
+        Item_Lore: "&7Type: YOU GO HIGH||&d(Tier 4)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 17
+        Projectile_Amount: 0.5
+        Projectile_Type: egg
+        Projectile_Speed: 1		
+        Reset_Fall_Distance: true
+        Projectile_Damage: 0
+        Bullet_Spread: 0.6
+        Sounds_Shoot: UI_BUTTON_CLICK-1-1-0,PISTON_EXTEND-1-1-0,ZOMBIE_WOOD-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 40
+        Sounds_Reloading: DOOR_CLOSE-1-2-0,SKELETON_WALK-1-0-10,PISTON_RETRACT-1-1-15
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        No_Fall_Damage: true
+
+summer2021bazu:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eB&6a&ez&6o&eo&6k&ea&f"
+        Item_Type: 417
+        Item_Lore: "|&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage.|&eSummer 2021"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 6
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Projectile_Speed: 10
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 10
+        Speed: 6
+    Explosions:
+        Enable: true
+        Knockback: 14
+        Explosion_No_Grief: true
+        Damage_Multiplier: 25
+        Enable_Owner_Immunity: true
+        Explosion_Radius: 4
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+summer2021RAYgun:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eR&6a&ey &6G&eu&6n&f"
+        Item_Type: 369
+        Item_Lore: "&7Type: Ray Gun|&7Damage: 10||&d(Tier 5)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 60-1-none-1
+        Projectile_Speed: 60
+        Projectile_Damage: 13
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_BAT_DEATH-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Critical: BLOCK_BREAK-4,BLOCK_BREAK-41
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Player_Shoot: BLOCK_BREAK-152
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+summer2021HMG:
+    Item_Information:
+        Item_Name: "&eS&6u&em&6m&ee&6r &eH&6e&ea&6v&ey &6M&ea&6c&eh&6i&en&6e &eG&6u&en&f"
+        Item_Type: 318
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 2||&3(Tier 6)|&eSummer 2021"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Speed: 12
+        Projectile_Amount: 2
+        Projectile_Type: egg
+        Remove_Bullet_Drop: true
+        Projectile_Damage: 2
+        Bullet_Spread: 0.3
+        Sounds_Shoot: ZOMBIE_WOOD-0.3-0-0,ZOMBIE_WOOD-0.6-1-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 500
+        Reload_Duration: 55
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.1
+        Sounds_Toggle_Zoom: BLOCK_NOTE_BLOCK_HAT-1-1-0
+        
+#Christmas 2020 Donor
+
+
+
+#Christmas 2021 Donor
+
+xmas2021Deto:
+    Item_Information:
+        Item_Name: "&4C&2h&4r&2i&4s&2t&4m&2a&4s &2D&4e&2t&4o&2n&4a&2t&4o&2r&r"
+        Item_Type: 289
+        Item_Lore: "&7Type: Ambush||&3(Tier 6)|&4Christmas 2021"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,14,276,407
+        Projectile_Speed: 14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 20
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 15
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 30
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+#Christmas 2022 Donor
+
+
+#Normal Donor
+
+minigun:
+    Item_Information:
+        Item_Name: "&eMinigun"
+        Item_Type: 420
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&d(Tier 5)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 30
+        Projectile_Damage: 1
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_WOOD-0.6-1-0,EXPLODE-0.4-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Reload:
+        Enable: true
+        Reload_Amount: 400
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Knockback: 1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.2
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+
+potatolauncher:
+    Item_Information:
+        Item_Name: "&6Potato Launcher&f"
+        Item_Type: 418
+        Item_Lore: "&7Type: Grenade||&3(Tier 6)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 392
+        Projectile_Speed: 14
+        Projectile_Damage: 0
+        Sounds_Shoot: CHICKEN_EGG_POP-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 4
+        Reload_Duration: 40
+        Sounds_Reloading: ENTITY_GENERIC_EAT-5-0-0
+        Reload_Bullets_Individually: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-155
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 22
+        Damage_Multiplier: 58
+        Enable_Owner_Immunity: true
+
+radiationrifle:
+    Item_Information:
+        Item_Name: "&9Radiation Rifle"
+        Item_Type: 409
+        Item_Lore: "&7Type: Energy|&7Damage: 8||&3(Tier 6)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 9
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 48-1-1-1
+        Projectile_Damage: 7
+        Bullet_Spread: 0.2
+        Sounds_Shoot: FIZZ-2-0-0,ENDERMAN_TELEPORT-3-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_OPEN-3-3-0,DOOR_OPEN-3-3-5,DOOR_CLOSE-2-3-40
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-138
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_MOOSHROOM_SHEAR-0.8-1.2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+
+railgun:
+    Item_Information:
+        Item_Name: "&5Rail&bGun&f"
+        Item_Type: 370
+        Item_Lore: "&7Electromagnetic Projectile Launcher||&3Tier: 6"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 0
+        Bullet_Spread: 0.2
+        Sounds_Shoot: ENDERMAN_TELEPORT-3-0-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+        No_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENTITY_ENDERMEN_SCREAM-0.7-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 5
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Firearm_Action:
+        Type: break
+        Open_Duration: 30
+        Close_Duration: 20
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: false
+        Death_No_Drop: true
+        Super_Effective: SKELETON-2,ZOMBIE-2
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        On_Impact_With_Anything: true
+        Explosion_Radius: 3
+        Knockback: 3
+        Damage_Multiplier: 60
+        Enable_Owner_Immunity: true
+
+theDetonator:
+    Item_Information:
+        Item_Name: "&2The Detonator"
+        Item_Type: 289
+        Item_Lore: "&7Type: Ambush||&3(Tier 6)"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,14,276,407
+        Projectile_Speed: 14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 20
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Delay: 15
+        Enable_Owner_Immunity: true
+        Damage_Multiplier: 48
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+pepperspray:
+    Item_Information:
+        Item_Name: "&ePepper Spray"
+        Item_Type: 378
+        Item_Lore: "|&o&5Spicy and Dangerous"
+        Sounds_Acquired: NOTE_PLING-2-2-0,NOTE_PLING-2-2-5
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 4
+        Projectile_Type: arrow
+        Projectile_Speed: 12
+        Projectile_Damage: 2
+        Bullet_Spread: 2.2
+        Sounds_Shoot: CAT_HISS-2-2-0,FIZZ-1-2-0,AMBIENCE_RAIN-1-2-0,BLAZE_HIT-1-0-0
+        Remove_Arrows_On_Impact: true
+    Reload:
+        Enable: true
+        Reload_Amount: 15
+        Reload_Bullets_Individually: false
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: FIRE_IGNITE-2-0-0
+        Sounds_Reloading: FIZZ-1-1-0,PISTON_RETRACT-2-2-120
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-60-2,POISON-80-3
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1,BLOCK_BREAK-1
+
+flamethrower:
+    Item_Information:
+        Item_Name: "&eFlamethrower"
+        Item_Type: 259
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 1||&e(Tier 5)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 12
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Flames: true
+        Projectile_Damage: 1
+        Bullet_Spread: 3
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 80
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        Super_Effective: PLAYER-0.5
+
+chainsaw:
+    Item_Information:
+        Item_Name: "&eChainsaw"
+        Item_Type: 359
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 6||&d(Tier 5)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 2-1-none-0
+        Projectile_Speed: 2	
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_WOLF_GROWL-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 300
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        
+jetpack:
+    Item_Information:
+        Item_Name: "&cJetpack"
+        Item_Type: 288
+        Item_Lore: "&7High Tech Propulsion System||&3Tier: 6"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -9
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 3-2-none-1
+        Projectile_Speed: 3
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 10
+        Projectile_Damage: 0
+        Bullet_Spread: 1
+        Sounds_Shoot: ENTITY_BLAZE_SHOOT-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 60
+        Sounds_Reloading: FIZZ-0.5-1-0,BLOCK_LEVER_CLICK-0.4-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+
+ender staff:
+    Item_Information:
+        Item_Name: "&5Ender Staff"
+        Item_Type: 398
+        Item_Lore: "&7Type: Ender Teleporter||&d(Tier 4)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 40
+        Recoil_Amount: -26
+        Projectile_Amount: 0
+        Projectile_Type: arrow
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 60
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-90
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Healing staff:
+    Item_Information:
+        Item_Name: "&4<3 &cHealing Staff &4<3&f"
+        Item_Type: 280
+        Item_Lore: "&7Type: Healing||&d(Tier 5)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 30
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: splash
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_PLAYER_LEVELUP-1-1-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Reload_Amount: 3
+        Reload_Duration: 45
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: potion_splash-444
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-0-6,SPEED-100-2,SATURATION-0-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+Jumper:
+    Item_Information:
+        Item_Name: "&eJumper"
+        Item_Type: 131
+        Item_Lore: "&7Type: YOU GO HIGH||&d(Tier 4)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 17
+        Projectile_Amount: 0.5
+        Projectile_Type: egg
+        Projectile_Speed: 1		
+        Reset_Fall_Distance: true
+        Projectile_Damage: 0
+        Bullet_Spread: 0.6
+        Sounds_Shoot: UI_BUTTON_CLICK-1-1-0,PISTON_EXTEND-1-1-0,ZOMBIE_WOOD-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 40
+        Sounds_Reloading: DOOR_CLOSE-1-2-0,SKELETON_WALK-1-0-10,PISTON_RETRACT-1-1-15
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+bazooka:
+    Item_Information:
+        Item_Name: "&eBazooka"
+        Item_Type: 417
+        Item_Lore: "|&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 6
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Projectile_Speed: 10
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        No_Fall_Damage: true
+        Death_No_Drop: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 10
+        Speed: 6
+    Explosions:
+        Enable: true
+        Knockback: 14
+        Explosion_No_Grief: true
+        Damage_Multiplier: 25
+        Enable_Owner_Immunity: true
+        Explosion_Radius: 4
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        
+RAYgun:
+    Item_Information:
+        Item_Name: "&eRay gun"
+        Item_Type: 369
+        Item_Lore: "&7Type: Ray Gun|&7Damage: 10||&d(Tier 5)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 28
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: Energy
+        Projectile_Subtype: 60-1-none-1
+        Projectile_Speed: 60
+        Projectile_Damage: 13
+        Bullet_Spread: 0
+        Sounds_Shoot: ENTITY_BAT_DEATH-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 50
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Particles:
+        Enable: true
+        Particle_Critical: BLOCK_BREAK-4,BLOCK_BREAK-41
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Player_Shoot: BLOCK_BREAK-152
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: IRONGOLEM_THROW-1-2-0
+        
+HMG:
+    Item_Information:
+        Item_Name: "&8Heavy Machine Gun&7"
+        Item_Type: 318
+        Item_Lore: "&7Type: Fully-Auto|&7Damage: 2||&3(Tier 6)"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Speed: 12
+        Projectile_Amount: 2
+        Projectile_Type: egg
+        Remove_Bullet_Drop: true
+        Projectile_Damage: 2
+        Bullet_Spread: 0.3
+        Sounds_Shoot: ZOMBIE_WOOD-0.3-0-0,ZOMBIE_WOOD-0.6-1-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 500
+        Reload_Duration: 55
+        Sounds_Reloading: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Death_No_Drop: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.1
+        Sounds_Toggle_Zoom: BLOCK_NOTE_BLOCK_HAT-1-1-0
+#Ammos
+pistonAmmo:
+    Item_Information:
+        Item_Name: "&dPistolAmmo"
+        Item_Type: 351~5
+        Item_Lore: ""
+        Remove_Unused_Tag: true
+        
+shotgunAmmo:
+    Item_Information:
+        Item_Name: "&9ShotgunAmmo"
+        Item_Type: 351~4
+        Item_Lore: ""
+        Remove_Unused_Tag: true
+        
+assaultAmmo:
+    Item_Information:
+        Item_Name: "&2AssaultAmmo"
+        Item_Type: 351~2
+        Item_Lore: ""
+        Remove_Unused_Tag: true
+        
+sniperAmmo:
+    Item_Information:
+        Item_Name: "&cSniperAmmo"
+        Item_Type: 351~1
+        Item_Lore: ""
+        Remove_Unused_Tag: true
